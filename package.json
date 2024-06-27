@@ -1,8 +1,8 @@
 {
-  "name": "copy-tab",
-  "publisher": "AlexZanfir",
-  "displayName": "Copy Tab",
-  "description": "Copy the content of all your open tabs. It's an ideal tool for quickly sharing code, transferring work between files, or pasting your code directly into GPT chat for AI-powered assistance.",
+  "name": "copy-tab-clone",
+  "publisher": "Saad Khan",
+  "displayName": "Copy Tab clone",
+  "description": "Copy the file that is opened and and past it into new place.",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.80.0"
@@ -17,14 +17,10 @@
   "contributes": {
     "commands": [
       {
-        "command": "extension.copyAllOpenFiles",
-        "title": "CopyTab All Open Files"
+        "command": "copy-tab.copyFile",
+        "title": "Copy Open File"
       }
     ]
   },
-  "dependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AlexZan/copy-tab"
-  }
+  "dependencies": {}
 }
